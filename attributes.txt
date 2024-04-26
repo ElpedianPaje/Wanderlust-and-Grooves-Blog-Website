@@ -1,0 +1,150 @@
+Header
+class:
+	shadow bg-light
+	container navbar
+	nav-brand text-dark
+	toggle-button
+	collapse
+	navbar-nav
+	nav-link
+	search-box
+icon class:
+	fas fa-bars
+	fas fa-search
+	fab fa-facebook
+	fab fa-twitter
+	fab fa-instagram
+	fab fa-dribbble
+id:
+	header
+
+
+Main Site - Blog Post Section
+class:
+	container
+	grid
+	grid-item
+	article
+	card
+	overflow-img
+	img-fluid
+	card-body text-center px-1
+	text-title display-1 text-dark
+	secondary-title text-secondary display-3
+	text-center
+	btn btn-primary secondary-title text-light
+icon class:
+	far fa-clock text-primary
+	far fa-comments text-primary	
+id:
+	site-main
+	posts
+
+Main Site - Swiper Slider
+class:
+	slider
+	container
+	swiper-container
+	swiper-wrapper
+	swiper-slide
+	img-fluid
+
+Footer
+class:
+	container
+	row mb-3
+	col-3
+	footer-title secondary-title
+	secondary-title text-secondary
+	mt-2
+	phone
+	feature-post
+	flex-item
+	article
+	d-flex
+	object-fit px-1
+	text-title display-2 text-dark
+	secondary-title text-secondary display-3
+	tags
+	d-flex flex-wrap
+	nav-link btn bg-light
+	footer-title secondary-title mt-2
+	tags social
+	copyrights
+	text-center text-secondary display-2
+	text-primary
+icon class:
+	fas fa-map-marker-alt text-primary
+	fas fa-envelope text-primary
+	far fa-clock text-primary
+	fab fa-facebook-f
+	fab fa-twitter
+	fab fa-instagram
+	fab fa-dribbble
+id:
+	footer
+
+
+Track
+global styling:
+.text-light - btn(273)
+.text-secondary - p(77, 100, 123, 146, 169, 192, 215, 238, 261, 386, 404, 422, 461); div(350)
+.text-dark - a(23, 73, 96, 119, 142, 165, 188, 211, 234, 257, 382, 400, 418)
+.text-primary - i(78, 79, 101, 102, 124, 125, 147, 148, 170, 171, 193, 194, 216, 217, 239, 240, 262, 263, 357, 362, 367, 387, 405, 423); a(462)
+.bg-light - header(21); a(438, 439, 440, 441, 442, 450, 451, 452, 453)
+.container - nav(22); div(61, 281, 345)
+.img-fluid - img(69, 92, 115, 138, 161, 184, 207, 230, 253, 289, 296, 303, 310, 317, 324, 331)
+.text-title - a(73, 96, 119, 142, 165, 188, 211, 234, 257, 382, 400, 418)
+.secondary-title - p(77, 100, 123, 146, 169, 192, 215, 238, 261, 386, 404, 422); btn(273); h2(348, 373, 434, 446); div(350)
+.display-1 - a(73, 96, 119, 142, 165, 188, 211, 234, 257)
+.display-2 - a(382, 400, 418); p(461)
+.display-3 - p(77, 100, 123, 146, 169, 192, 215, 238, 261, 386, 404, 422)
+.text-center - div(72, 95, 118, 141, 164, 187, 210, 233, 256, 272); p(461)
+.text-right - none
+.btn - btn(273); a(438, 439, 440, 441, 442, 450, 451, 452, 453)
+.btn-primary - btn(273)
+.object-fit - img(380, 398, 416)
+.d-flex - div(378, 396, 414, 437, 449)
+.flex-wrap - div(437, 449)
+.justify-content-center - none
+.justify-content-between - none
+.mt-2 - p(351); h2(446)
+.mt-3 - none
+.mb-3 - div(346)
+.m-0 - none
+.px-1 - div(72, 95, 118, 141, 164, 187, 210, 233, 256, 381, 399, 417); img(380, 398, 416)
+.px-2 - none
+.py-1 - none
+.py-2 - none
+.py-3 - none
+.thumbnail - none
+.rounded - none
+.shadow - header(21)
+
+Navigation Menu:
+.navbar - nav(22)
+.nav-brand - a(23)
+.collapse - div(33, 42)
+.nav-link - a(35, 36, 37, 45, 47, 48, 49, 50, 438, 439, 440, 441, 442, 450, 451, 452, 453)
+.search-box - div(44)
+.toggle-button - btn(28)
+
+Main Section:
+#site-main - main(58)
+#posts - section(60)
+.grid - div(62)
+.grid-item - div(64, 87, 110, 133, 156, 179, 202, 225, 248)
+
+Footer:
+#footer - footer(344)
+.feature-post - div(375)
+.flex-item - div(376, 394, 412)
+.tags - div(346, 448)
+.tags a - 438, 439, 440, 441, 442, 450, 451, 452, 453
+.copyrights - div(460)
+
+Media Query:
+.row - div(346)
+.col-3 - div(347, 372, 433)
+.col-8 - none
+.col-4 - none
