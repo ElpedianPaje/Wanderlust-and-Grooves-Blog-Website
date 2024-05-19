@@ -576,6 +576,12 @@ a{
     padding-right: 35px;
 }
 
+.col-31{
+    flex: 0 0 33.3333%;
+    max-width: 50%;
+    padding-right: 0;
+}
+
 .col-8{
     flex: 0 0 70%;
     max-width: 70%;
@@ -617,7 +623,7 @@ a{
        flex-wrap: wrap;
     }
 
-    .col-3{
+    .col-3, .col-31{
         flex: 0 0 50%;
         max-width: 50%;
     }
@@ -657,7 +663,7 @@ a{
         width: calc(50% - 20px);
     }
 
-    .col-3{
+    .col-3, .col-31{
         flex: 0 0 100%;
         max-width: calc(100% - 50px);
         padding-top: 40px 50px;
