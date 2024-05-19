@@ -35,12 +35,12 @@
                         <div class="nav-link blog">
                             <p id="blogs"> Blogs </p>
                             <div class="blog-dropdowncontent">
-                                <a href="#"> All </a>
-                                <hr>
-                                <a href="travel.html"> Travel </a>
+                                <!-- <a href="#"> All </a>
+                                <hr> -->
+                                <a href="video game.html"> Video Game </a>
                                 <a href="food.html"> Food </a>
                                 <a href="music.html"> Music </a>
-                                <a href="movie.html"> Movie </a>
+                                <a href="personal.html"> Personal </a>
                             </div>
                         </div>
                         <a href="contact.html" class="nav-link"> Contact </a>
@@ -67,17 +67,59 @@
 
         <!-- Main Site -->
         <main id="site-main">
-
-            <!-- Post Content -->
-                <section class="container">
-                    <article id="post">
-                        <div class="headings content text-dark display-2 secondary-title mt-3">
-                            <p> Contact Information heresfsdfdd </p>
+            <!-- Contact Start -->
+            <div class="container">
+                <div class="headings">
+                    <h2 class="text-title text-dark display-1"> Contact Us </h2>
+                </div>
+                <div class="row justify-content-between mb-5">
+                    <div class="col-8 padding-right">
+                        <div class="contact-form bg-light p-30">
+                            <div id="success"></div>
+                            <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                                <div class="control-group contact">
+                                    <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                        required="required" autocomplete="off" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group contact">
+                                    <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                        required="required" autocomplete="off" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group contact">
+                                    <input type="text" class="form-control" id="subject" placeholder="Subject"
+                                        required="required" autocomplete="off" data-validation-required-message="Please enter a subject" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group contact">
+                                    <textarea class="form-control" rows="8" id="message" placeholder="Message"
+                                        required="required" autocomplete="off"
+                                        data-validation-required-message="Please enter your message"></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div>
+                                    <button class="btn btn-primary py-2 px-4" type="submit" id="sendMessageButton">Send
+                                        Message</button>
+                                </div>
+                            </form>
                         </div>
-                    </article>
-
-            </section>
-            <!-- .Swiper slider -->
+                    </div>
+                    <div class="col-3">
+                        <div class="bg-light p-30 mb-30">
+                            <iframe style="width: 100%; height: 250px;"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3942.6180932067546!2d125.09631967406467!3d8.82190129219833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33002eee88ab916f%3A0xcfa95fba2191a104!2sGingoog%20City%20Colleges%2C%20Inc.!5e0!3m2!1sen!2sph!4v1714817026896!5m2!1sen!2sph"
+                            frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+                        <div class="bg-light p-30 mb-3">
+                            <p class="mb-2"><i class="fa fa-map-marker-alt text-primary mr-3"></i> Macopa St., Paz Village Subdivision, Gingoog City, Misamis Oriental, 9014 Philippines </p>
+                            <p class="mb-2"><i class="fa fa-envelope text-primary mr-3"></i> wander_groove@gmail.com </p>
+                            <p class="mb-2"><i class="fa fa-phone-alt text-primary mr-3"></i>+63 926 237 6275</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Contact End -->
         </main>
         <!-- .Main Site -->
 
@@ -197,10 +239,9 @@
                            </div>
                        </div>
                        <div class="col-3">
-                            <h2 class="footer-title secondary-title">Tags</h2>
-
                             <div class="tags">
                                 <div class="d-flex flex-wrap">
+                                    <h2 class="footer-title secondary-title">Tags</h2>
                                     <a href="travel.html" class="nav-link btn bg-light">Travel</a>
                                     <a href="food.html" class="nav-link btn bg-light">Food</a>
                                     <a href="music.html" class="nav-link btn bg-light">Music</a>
@@ -208,10 +249,9 @@
                                 </div>
                             </div>
 
-                            <h2 class="footer-title secondary-title mt-2">Social</h2>
-
                             <div class="tags social">
                                 <div class="d-flex flex-wrap">
+                                    <h2 class="footer-title secondary-title mt-2">Social</h2>
                                     <a href="#" class="nav-link btn bg-light"><i class="fab fa-facebook-f"></i></a>
                                     <a href="#" class="nav-link btn bg-light"><i class="fab fa-youtube"></i></a>
                                     <a href="#" class="nav-link btn bg-light"><i class="fab fa-twitter"></i></a>
